@@ -1,8 +1,10 @@
-import { Text } from './components/atomes'
+import { Container, Text } from './components/atomes'
 
 function App() {
   return (
-    <Text.Label>Nouveau label</Text.Label>
+    <Container.Column>
+      <Text.Label>Nouveau label</Text.Label>
+    </Container.Column>
   )
 }
 
