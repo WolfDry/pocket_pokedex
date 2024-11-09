@@ -1,10 +1,8 @@
-import { Container, Text } from './components/atomes'
+import LoginForm from './components/molecules/LoginForm'
 
 function App() {
   return (
-    <Container.Column>
-      <Text.Label>Nouveau label</Text.Label>
-    </Container.Column>
+    <LoginForm />
   )
 }
 
